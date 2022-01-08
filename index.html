@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous">
+    </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js" integrity="sha512-c5JDIvikBZ6tuz+OyaFsHKvuyg+tCug3hf41Vmmd5Yz9H5anj4vZOqlBV5PJoEbBJGFCgKoRT9YAgko4JS6/Qw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontSize: {
+                '10xl': ['14rem', {
+        lineHeight: '1rem',
+      }]
+            },
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div style=" background-color:#0669EF" class=" mx-0 lg:mx-20 xl:mx-32 2xl:mx-56 my-20">
+    <div
+      style="
+        background-image: url(./assets/images/Group\ 106.svg);
+        background-size: cover;
+        background-repeat:no-repeat;
+      "
+      class=" pt-10  "
+    >
+      <div class="pl-24">
+        <img src="./assets/images/Group 12.svg" alt="logo" />
+      </div>
+
+      <div class="flex justify-between pl-0 xl:pl-32 pt-36">
+        <div class="w-full">
+          <h1 class="text-white text-5xl 2xl:text-9xl font-bold">
+            We're Kazan
+          </h1>
+          <h2
+            class="absolute font-normal text-white xl:text-3xl 2xl:text-6xl pt-5 pl-12"
+          >
+            We create “Hybrid Marketing Solutions”
+          </h2>
+          <p class="absolute text-white pl-16 pt-10 xl:pt-20 mt-2">
+            Our aim is to create a powerful combination of creativity and
+            technology.
+          </p>
+        </div>
+        <div class="mt-12">
+          <img src="./assets/images/image 2.png" alt="sideLogo" />
+        </div>
+      </div>
+
+      <a id="downBtn" href="#section2" class="flex bg-white w-max mx-auto p-6 rounded-full" >
+        <svg class="w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
+      </a>
+    
+      <div class="w-auto pt-20 mx-auto text-center text-white text-2xl">
+        <p>Branding, Creative, and Print experiences that extend</p>
+        <p>across a brand's entire ecosystem.</p>
+      </div>
+    </div>
+    
+    <div >
+      <div class="">
+        <div class="flex flex-col text-gray-300 pr-2 w-max mx-10 lg:mx-20 xl:mx-44 mt-20 " >
+          <div class="flex">
+            <div id="tab1Index" tabindex="0" class="cursor-pointer border-r border-gray-300 focus:text-white focus:border-white pr-2">01</div>
+            <div id="tab1" class="pl-2"></div>
+          </div>
+          <a href="#tab2">
+            <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">02</div>
+          </a>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">03</div>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">04</div>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">05</div>
+        </div>
+
+        <div class="text-center mt-20 w-auto" >
+          <h1 style="color:rgba(255, 255, 255, 0.24);" class="text-7xl md:text-8xl lg:text-9xl xl:text-10xl ">Branding</h1>
+          <div class="flex justify-center -mt-36">
+            <img class="mr-20" src="./assets/images/image 5.png" alt="image5">
+            <p class="text-left w-64 text-white text-lg md:text-xl lg:text-2xl xl:text-3xl pt-12 lg:pt-8 xl:pt-14 leading-snug" >Brand Strategy Visual Identity Copywriting Creative Direction Art Direction</p>
+          </div>
+        </div>
+      </div>
+      <div id="scrollDiv" style="scroll-behavior: smooth; color:rgba(255, 255, 255, 0.4);" class="overflow-x-auto overflow-x-hidden overflow-y-hidden text-9xl" >
+        <h1  style="width: 2200px;" class="text-center " >gaming finance  real estate copywriting</h1>
+      </div>
+
+      <div id="section2" class="flex flex-col md:flex-row mt-32">
+        <div class="flex flex-col text-gray-300 pr-2 w-max mx-10 lg:mx-20 xl:mx-44">
+          <a href="#downBtn">
+            <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">01</div>
+          </a>
+          <div class="flex">
+            <div id="tab2Index" tabindex="0" class="cursor-pointer border-r border-gray-300 focus:text-white focus:border-white pr-2">02</div>
+            <div id="tab2" class="pl-2"></div>
+          </div>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">03</div>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">04</div>
+          <div tabindex="0" class="w-min cursor-pointer border-r border-gray-300 pb-1 pr-2 focus:text-white focus:border-white">05</div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-center items-center md:items-start w-full">
+          <div class="flex flex-col w-96 z-20 xl:pt-8 mt-8" >
+            <h1 class="text-7xl text-white" >Fintech</h1>
+            <p class="text-white text-lg" >Retro occupy organic, stumptown shabby chic pour-over roof party DIY normcore. Actually artisan organic occupy, Wes Anderson ugh whatever pour-over gastropub selvage. Chillwave craft beer to.</p>
+            <button 
+              id="btn"
+              style="
+                border-width: 3px;
+                border-style: solid;
+                border-image: linear-gradient(180deg, #90DA17 0%, #3EFFDA 39.06%, #E87218 71.87%, #FFB248 100%) 1;
+            " 
+              class=" text-white mt-10 w-max py-2 px-10" >
+                All industries
+            </button>
+          </div>
+
+          <div class=" w-auto md:w-6/12 mb-20 mt-8 ">
+            <img class=" -ml-0 lg:-ml-10 xl:-ml-16 2xl:-ml-28 max-h-96 " src="./assets/images/image 6.png" alt="image6">
+            <img class="absolute w-20 lg:w-32 2xl:w-40 ml-14 lg:-ml-1 xl:-ml-16 2xl:-ml-20 -mt-8 lg:-mt-12 xl:-mt-16 2xl:-mt-20" src="./assets/images/Group 107.svg" alt="">
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <script src="js/settings.js" ></script>
+  </body>
+</html>
