@@ -15,7 +15,7 @@ $('body').mousewheel(function(event) {
 
 document.addEventListener('scroll', function (e) {     
     console.log('scrolling', window.scrollY);
-    if(window.scrollY>800){
+    if(window.scrollY>930){
         $("#tab1").text("")
         $("#tab2").text("Fintech")
         $("#tab1").css("color","rgb(209 213 219)")
