@@ -22,6 +22,8 @@ document.addEventListener('scroll', function (e) {
         $("#tab1Index").css("color","rgb(209 213 219)")
         $("#tab2").css("color","white")
         $("#tab2Index").css("color","white")
+        $("#tab2Index").css("border-color","white")
+        $("#tab1Index").css("border-color","#D1D5DB")
     }
     else{
         $("#tab1").text("Branding")
@@ -30,5 +32,7 @@ document.addEventListener('scroll', function (e) {
         $("#tab2Index").css("color","rgb(209 213 219)")
         $("#tab1").css("color","white")
         $("#tab1Index").css("color","white")
+        $("#tab1Index").css("border-color","white")
+        $("#tab2Index").css("border-color","#D1D5DB")
     }
 }, true);
